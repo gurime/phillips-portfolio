@@ -1,0 +1,31 @@
+.aboutcontainer{
+    padding: 1rem;
+    max-width: 968px;
+    margin: auto;
+}
+
+.aboutme-clock{
+    display: flex;
+    place-content: space-between;
+    place-items: center;
+}
+.about-title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 16px;
+    background: linear-gradient(90deg,#1691ad,#1c65be,#969fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutcontainer p{
+    color: #fff;
+    line-height: 2rem;
+}
+
+@media(max-width:768px){
+    .aboutme-clock{
+        flex-direction: column;
+    }
+  }
