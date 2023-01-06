@@ -1,6 +1,5 @@
 import  { useState } from 'react';
 import locatorimg from '../img/locator-icon.png'
-import envolope from '../img/green-env.jpg'
 import '../css/faq.css'
 import { TicTacToe } from '../Components/Tic-Tac-Toe'
 
