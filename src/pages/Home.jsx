@@ -16,12 +16,19 @@ return (
 </div>
 {/**hero */}
 
+<h1 style={{textAlign:'center'}} className="hero-title"><span>Front-End Developer <br/> UX/UI Designer</span></h1>
+
+
+
 {/**profile pic */}
 <div className="profilepic-box">
 <h1 className="main-clock" id="clock"><Clock/></h1>
 <img src={propic} alt="..."/>
 </div>
 {/**profile pic */}
+
+
+
 
 
 <div className='Mywork-Title'><h1>My Work</h1>
