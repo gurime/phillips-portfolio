@@ -5,7 +5,6 @@ import '../css/about.css'
 export const About = () => {
 return (
 <>
-
 <div className="aboutcontainer">
 <div className="aboutme-clock">
 <h1 className="about-title">About Me</h1>
