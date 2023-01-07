@@ -56,7 +56,7 @@ buttonLink: 'https://fooapp.netlify.app/',
 {
 title: 'Vue Project',
 imgSrc: require('../img/tabg.jpg'),
-content: 'ToDo app lets you keep track of what you need to get done.',
+content: 'ToDo app lets you to stay organized and on top of your responsibilities by allowing you to keep track of what you need to get done. You can also categorize your tasks by assigning them to different lists or projects. ',
 buttonText: 'Explore Now',
 buttonLink: 'https://topdo.netlify.app/',
 },

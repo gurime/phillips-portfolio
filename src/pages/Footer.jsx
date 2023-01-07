@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/footer.css'
+
 import githutimg from '../img/GitHub-Mark-Light-64px.png'
 import linkedin from '../img/linkedin-icon.png'
 

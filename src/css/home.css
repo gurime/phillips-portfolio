@@ -59,33 +59,29 @@ transition: 0.5s;
 
          
 
-  .profilepic-box{
-    display: flex;
-  place-content:  space-around;
-    place-items: center;
-  
-    height: auto;
-   
+.profilepic-box{
+display: flex;
+place-content:  space-around;
+place-items: center; 
+height: auto;  
 }
 
 .profilepic-box img{
-    object-fit: cover;
-    object-position: center;
-  height: 20rem;
-    
+object-fit: cover;
+object-position: center;
+height: 20rem;
 }
 
 
 
 
 
-  @media(max-width:768px){
-    .hero-title{
-        font-size: 32px;
-    }
-    .profilepic-box{
-      flex-direction: column;
-    }
-
-  }
+@media(max-width:768px){
+.hero-title{
+font-size: 32px;
+}
+.profilepic-box{
+flex-direction: column;
+}
+}
   

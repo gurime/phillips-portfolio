@@ -6,12 +6,12 @@ import { Home } from "./pages/Home";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Root />}>
-      <Route  index element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="faq" element={<Faq/>}/>
-    </Route>
-  )
+<Route path="/" element={<Root />}>
+ <Route  index element={<Home />} />
+ <Route path="about" element={<About />} />
+ <Route path="faq" element={<Faq/>}/>
+</Route>
+)
 );
 
 function App() {
