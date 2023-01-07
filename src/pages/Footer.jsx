@@ -15,8 +15,8 @@ return (
     <>
 {/**footer */}
 <footer>
-<div class="footer-container">
-<div class="social-links-box">
+<div className="footer-container">
+<div className="social-links-box">
 <p>&#169;Created by Phillip Andrew Bailey</p>
 <div style={{marginRight:'1rem',display:'flex'}}>
 <img  onClick={gitHubhandleClick}  src={linkedin} alt=""/>
