@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, Outlet, ScrollRestoration } from 'react-router-dom'
-
+import { Footer } from '../pages/Footer'
 export const Root = () => {
   return (
     <>
@@ -14,7 +14,7 @@ export const Root = () => {
 </ul>
 </nav>
 <Outlet/>
-
+<Footer/>
     </>
   )
 }

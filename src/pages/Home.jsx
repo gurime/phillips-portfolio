@@ -4,7 +4,7 @@ import CardGrid from '../Components/CardGrid'
 import { Clock } from '../Components/Clock'
 import '../css/home.css'
 import propic from '../img/pro-phil.jpeg'
-import { Footer } from './Footer'
+
 export const Home = () => {
 return (
 <>
@@ -38,7 +38,7 @@ return (
 <CardGrid/>
 </div>
 
-<Footer/>
+
 </>
 )
 }
