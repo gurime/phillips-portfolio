@@ -31,8 +31,7 @@ return (
 
 
 
-<div className='Mywork-Title'><h1>My Work</h1>
-</div>
+<div className='Mywork-Title'><h1>My Work</h1></div>
 
 <div>
 <CardGrid/>

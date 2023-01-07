@@ -2,14 +2,16 @@ import React from 'react'
 import '../css/footer.css'
 import githutimg from '../img/GitHub-Mark-Light-64px.png'
 import linkedin from '../img/linkedin-icon.png'
+
+
 export const Footer = () => {
-    const gitHubhandleClick = () => {
-        window.open('https://github.com/gurime', '_blank');
-      };
-    const handleClick = () => {
-        window.open('https://github.com/gurime', '_blank');
-      };
-  return (
+const gitHubhandleClick = () => {
+window.open('https://github.com/gurime', '_blank');
+};
+const handleClick = () => {
+window.open('https://github.com/gurime', '_blank');
+};
+return (
     <>
 {/**footer */}
 <footer>

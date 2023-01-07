@@ -1,12 +1,13 @@
 import React from 'react'
 import { Clock } from '../Components/Clock'
 import '../css/about.css'
+
 export const About = () => {
 return (
 <>
 
 <div className="aboutcontainer">
-    <div className="aboutme-clock">
+<div className="aboutme-clock">
 <h1 className="about-title">About Me</h1>
 <h1 className="main-clock" id="clock"><Clock/></h1>
 </div>
