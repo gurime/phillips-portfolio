@@ -3,13 +3,15 @@ import { Root } from "./Layouts/Root";
 import { About } from "./pages/About";
 import { Faq } from "./pages/Faq";
 import { Home } from "./pages/Home";
+import { PasswordGenerator } from "./pages/PasswordGenerator";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-<Route path="/" element={<Root />}>
- <Route  index element={<Home />} />
+<Route  path="/" element={<Root />}>
+ <Route index element={<Home />} />
  <Route path="about" element={<About />} />
  <Route path="faq" element={<Faq/>}/>
+ <Route path="passwordgenerator" element={<PasswordGenerator/>}/>
 </Route>
 )
 );
