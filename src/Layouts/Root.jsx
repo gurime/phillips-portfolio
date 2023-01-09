@@ -16,6 +16,6 @@ return (
 </nav>
 <Outlet/>
 <Footer/>
-    </>
-  )
+</>
+)
 }
