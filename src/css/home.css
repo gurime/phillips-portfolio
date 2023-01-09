@@ -69,7 +69,9 @@ height: auto;
 object-fit: cover;
 object-position: center;
 height: 20rem;
-border-radius: 10px;
+border-radius: .5rem;
+border: solid 2px #e500ea;
+padding: 4px;
 }
 
 
