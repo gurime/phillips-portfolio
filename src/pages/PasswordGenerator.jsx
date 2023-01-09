@@ -5,7 +5,7 @@ export const PasswordGenerator = () => {
 
 // Set the initial state for the password and password length
 const [password, setPassword] = useState('');
-const [passwordLength, setPasswordLength] = useState(0);
+const [passwordLength, setPasswordLength] = useState(16);
 
 function generatePassword() {
 // Set the possible characters for the password
