@@ -3,7 +3,7 @@ import { TicTacToe } from '../Components/Tic-Tac-Toe'
 import locatorimg from '../img/locator-icon.png'
 import '../css/faq.css'
 
-export const Faq = () => {
+export const Contact = () => {
 const [isAnswer1Visible, setAnswer1Visibility] = useState(false);
 const [isAnswer2Visible, setAnswer2Visibility] = useState(false);
 const [isAnswer3Visible, setAnswer3Visibility] = useState(false);
