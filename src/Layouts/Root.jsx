@@ -10,7 +10,7 @@ return (
 <ul>
 <li><NavLink to="/">Home</NavLink></li>
 <li><NavLink to="about">About</NavLink></li>
-<li><NavLink to="faq">Faq</NavLink></li>
+<li><NavLink to="faq">Contact</NavLink></li>
 <li><NavLink to="passwordgenerator">PasswordGenerator</NavLink></li>
 </ul>
 </nav>

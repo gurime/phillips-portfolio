@@ -17,7 +17,7 @@ const [isAnswer3Visible, setAnswer3Visibility] = useState(false);
 return (
 <>
 <div className="container">
-<h1 className="faq-title" >Frequently Asked Questions</h1>
+<h1 className="faq-title" >Contact Information</h1>
 {/**first question block */}
 <div className="question">
 <h2>Contact Number</h2>
@@ -46,7 +46,7 @@ onClick={() => setAnswer2Visibility(!isAnswer2Visible)}>
 
 <div className="answer" style={{ display: isAnswer2Visible ? 'block' : 'none' }}>
 <p className='locatorp'>
-<img src={locatorimg} alt='...'/> 203 West Main Street Apt.107 LaFayette GA, 30728
+<img src={locatorimg} alt='...'/> LaFayette GA, 30728
 </p>
 </div>
 </div>
