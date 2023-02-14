@@ -25,6 +25,8 @@ newPassword += char;
 setPassword(newPassword);
 }
 
+document.title = 'Phillip Bailey | PasswordGenerator'
+
 return (
 <>
 

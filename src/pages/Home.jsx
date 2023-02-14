@@ -6,12 +6,13 @@ import '../css/home.css'
 import propic from '../img/pro-phil.jpeg'
 
 export const Home = () => {
+    document.title = 'Phillip Bailey'
 return (
 <>
 {/**hero */}
 <div className="hero">
 <h1 className="hero-title"><span>Welcome to My Website</span></h1>
-<p className="hero-description">Learn more about me and what I do.</p>
+<p className="hero-description">Learn more about me.</p>
 <NavLink to="about" className="hero-button">Explore About</NavLink>
 </div>
 {/**hero */}

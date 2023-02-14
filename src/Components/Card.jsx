@@ -4,8 +4,9 @@ export const Card = ({ title, imgSrc, content, buttonText, buttonLink }) => {
 return (
 <div>
 <div className="card">
-<h2 className="card-title">{title}</h2>
 <img src={imgSrc} alt="" />
+<h2 className="card-title">{title}</h2>
+
 <div>
 <p className="card-content">{content}</p>
 </div>

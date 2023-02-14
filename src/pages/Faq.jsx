@@ -12,7 +12,7 @@ const [isAnswer3Visible, setAnswer3Visibility] = useState(false);
 
 
     
-    
+    document.title = 'Phillip Bailey | Contact'
     
 return (
 <>
