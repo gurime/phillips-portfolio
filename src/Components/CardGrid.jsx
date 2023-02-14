@@ -29,13 +29,7 @@ buttonText: 'Explore Now',
 buttonLink: 'https://barberfaith.netlify.app/',
 },
 
-{
-title: 'React Project',
-imgSrc: require('../img/itbg.jpg'),
-content: 'Itruth News is an innovative news landing page that provides honest and reliable news. It offers a comprehensive selection of articles from all over the world, sourced from trusted sources.',
-buttonText: 'Explore Now',
-buttonLink: 'https://itruthnews.netlify.app/',
-},
+
 
 {
 title: 'React Project',
