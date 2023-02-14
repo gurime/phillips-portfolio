@@ -3,6 +3,7 @@ import { Clock } from '../Components/Clock'
 import '../css/about.css'
 
 export const About = () => {
+    document.title = 'Phillip Bailey | About'
 return (
 <>
 <div className="aboutcontainer">
@@ -17,7 +18,57 @@ My design philosophy revolves around the idea that form should follow function, 
   
 <p>I am skilled in a variety of design tools including Affinity designer, Affinity Photo, Figma.
 In my free time, you can find me staying up-to-date on the latest design trends, tinkering with new design tools, and collaborating with other designers on personal projects. Thank you for visiting my website and please feel free to reach out if you have any questions or would like to hire me.</p>
+
+<div className='about-education'>
+<h1>Education</h1>
+
+
+<p>Southern New Hampshire University, Manchester, NH</p>
+<div
+style={{
+display:'flex',
+justifyContent:'space-between',
+placeItems:'center'
+}}
+>
+<p>Associate of Science in Information Technology </p>
+<p>September 2021</p>
 </div>
+
+
+
+<ul style={{display:'grid',gridGap:'20px'}}>
+<li style={{listStyleType:'disc',color:'#fff'}}>Relevant Coursework: Website Design | Computer Platform Technologies | Web and Mobile User Experiences | Business Systems Analysis & Design</li>
+<li style={{listStyleType:'disc',color:'#fff'}}>GPA: 3.097</li>
+</ul>
+
+
+
+
+
+<p>Southern New Hampshire University, Manchester, NH</p>
+<div
+style={{
+display:'flex',
+justifyContent:'space-between',
+placeItems:'center'
+}}
+>
+<p>Bachelor of Science in Information Technology </p>
+<p>January 2023</p>
+</div>
+
+
+
+<ul style={{display:'grid',gridGap:'20px'}}>
+<li style={{listStyleType:'disc',color:'#fff'}}>Relevant Coursework: Website Design | Computer Platform Technologies | Web and Mobile User Experiences | Business Systems Analysis & Design</li>
+<li style={{listStyleType:'disc',color:'#fff'}}>GPA: 3.134</li>
+</ul>
+
+
+</div>
+</div>
+
 </>
 )
 }

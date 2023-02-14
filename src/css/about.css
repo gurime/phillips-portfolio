@@ -24,6 +24,14 @@ color: #fff;
 line-height: 2rem;
 }
 
+
+
+.about-education h1{
+    color: #fff;
+    border-bottom: solid 1px #fff;
+
+}
+
 @media(max-width:768px){
 .aboutme-clock{
 flex-direction: column;
