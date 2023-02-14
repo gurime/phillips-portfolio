@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TicTacToe } from '../Components/Tic-Tac-Toe'
 import locatorimg from '../img/locator-icon.png'
-import '../css/faq.css'
+import '../css/contact.css'
 
 export const Contact = () => {
 const [isAnswer1Visible, setAnswer1Visibility] = useState(false);
