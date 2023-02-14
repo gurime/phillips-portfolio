@@ -95,6 +95,12 @@ border:'solid 1px currentcolor'
 <p><b>Barberfaith </b> Designing websites that function optimally on both desktop and mobile devices.</p>
 <p><b>GulimeShop </b> Developing a website with a responsive navigation and content layout that enhances the user experience.</p>
 
+<hr
+style={{
+color:'#af66ff',
+border:'solid 1px currentcolor'
+}} />
+
 <h1>CERTFICATES</h1>
 <p><b>Fall-2022</b>In Recognition of Outstanding Academic Achievement - Southern New Hampshire University</p>
 </div>
