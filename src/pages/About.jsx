@@ -65,10 +65,22 @@ placeItems:'center'
 <li style={{listStyleType:'disc',color:'#fff'}}>GPA: 3.134</li>
 </ul>
 
+<h1>CORE COMPETENCIES</h1>
+<p><b>Platforms:</b> Windows 7, Windows 8.1, Windows 10, Windows 11, MacOS</p>
+<p><b>Networking:</b>  LAN / WAN Administration, VPN</p>
+<p><b>Languages:</b>HTML, CSS, JavaScript, React, Angular, Vue</p>
+<p><b>Tools:</b>LAN Manager, Wix, Figma, Affinity Photo, Affinity Designer, Affinity Publisher, Bootstrap, jQuery, Iobit Advanced System Care, MS Office Suite (Word, Excel, PowerPoint, Outlook).</p>
 
+<h1>INFORMATION TECHNIOLGY PROJECTS</h1>
+<p><b>Gracious-Crossing:</b> Examine the latest trends in the field of UI/UX design in order to understand the approaches and strategies being used by competitors in the industry.</p>
+<p><b>Belief-Ministries: </b> Combining creativity with a knowledge of design principles resulted in the creation of a website that is responsive to user interactions.</p>
+<p><b>Barberfaith </b> Designing websites that function optimally on both desktop and mobile devices.</p>
+<p><b>GulimeShop </b> Developing a website with a responsive navigation and content layout that enhances the user experience.</p>
+
+<h1>CERTFICATES</h1>
+<p><b>Fall-2022</b>In Recognition of Outstanding Academic Achievement - Southern New Hampshire University</p>
 </div>
 </div>
-
 </>
 )
 }
