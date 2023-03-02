@@ -8,8 +8,8 @@ export const Footer = () => {
 const gitHubhandleClick = () => {
 window.open('https://github.com/gurime', '_blank');
 };
-const handleClick = () => {
-window.open('https://github.com/gurime', '_blank');
+const linkedinhandleClick = () => {
+window.open('https://www.linkedin.com/in/ogphillip-bailey/', '_blank');
 };
 return (
     <>
@@ -21,7 +21,7 @@ return (
 <div style={{marginRight:'1rem',display:'flex'}}>
 <img  onClick={gitHubhandleClick}  src={linkedin} alt=""/>
 <div style={{padding: '0 5px'}}></div>
-<img onClick={handleClick} src={githutimg} alt=""/>
+<img onClick={linkedinhandleClick} src={githutimg} alt=""/>
 </div>
 </div>
 </div>
