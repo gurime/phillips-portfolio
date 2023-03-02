@@ -19,9 +19,9 @@ return (
 <div className="social-links-box">
 <p>&#169;Created by Phillip Andrew Bailey</p>
 <div style={{marginRight:'1rem',display:'flex'}}>
-<img  onClick={gitHubhandleClick}  src={linkedin} alt=""/>
+<img  onClick={linkedinhandleClick}  src={linkedin} alt=""/>
 <div style={{padding: '0 5px'}}></div>
-<img onClick={linkedinhandleClick} src={githutimg} alt=""/>
+<img onClick={gitHubhandleClick} src={githutimg} alt=""/>
 </div>
 </div>
 </div>
